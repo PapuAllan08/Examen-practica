@@ -1,0 +1,67 @@
+body {
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.logo {
+    width:75px;
+    animation-name: logoo;
+    animation-duration: 20s;
+}
+
+@keyframes logoo  {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(100000deg);
+    }
+}
+
+h1 {
+    text-shadow: -10px 10px 5px blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#48e;
+}
+
+.segundo {
+    background:linear-gradient(to right, #48e, #ff9, #f33);
+    background-clip: text;
+    color:transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200px;
+    text-transform: uppercase;
+}
+
+.segundo_div {
+    height: 500px;
+    width:1000px;
+    margin:auto;
+}
+
+.h2Subt {
+    text-transform: uppercase;
+}
+
+.primer_div {
+    margin:0;
+}
+
+.phuno {
+    color:red;
+}
+.phdos {
+    color:rgb(0, 0, 255)
+}
+
+.phtres {
+   color:hsla(120, 57%, 46%, 1)
+}
+img {
+    height:200px;
+    width:300px;
+}
